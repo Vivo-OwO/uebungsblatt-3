@@ -6,14 +6,21 @@ public class P2_main {
         int b = 5;
         int c = 16;
         int d = 0;
-        int count = 0;
+        int Zahl = 0;
 
-        if (a==b){count++;}
-        if (a==b || a==c){count++;}
-        if (a + b >= c){count++;}
-        if (a + b +c >= 100){count++;
+        if (a==b){
+            Zahl++;
         }
-        d = count;
+        if (a==b || a==c) {
+            Zahl++;
+        }
+        if (a + b >= c){
+            Zahl++;
+        }
+        if (a + b +c >= 100){
+            Zahl++;
+        }
+        d = Zahl;
         System.out.println(d);
     }
 }
