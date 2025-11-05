@@ -4,7 +4,7 @@ public class H3_main {
     public static void main(String[] args) {
         int max = 5;
         int fix = 2;
-        int wartend = 6;
+        int wartend = 2;
         boolean istvoll = false;
 
         if (max-fix > 0 && wartend > 0) {
